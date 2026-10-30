@@ -1,0 +1,9 @@
+project: savantenvs/maxscale
+target: fuzz_canonical
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_canonical/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_canonical
+    libfuzzer: true
+    timeout: 5

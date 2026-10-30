@@ -1,0 +1,6 @@
+[listener1]
+type=listener
+service=svc
+protocol=MariaDBClient
+port=4006
+socket=/tmp/maxscale.sock

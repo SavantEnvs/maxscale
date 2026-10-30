@@ -1,0 +1,15 @@
+[maxscale]
+threads=auto
+log_info=1
+
+[server1]
+type=server
+address=127.0.0.1
+port=3306
+
+[Monitor]
+type=monitor
+module=mariadbmon
+servers=server1
+user=mon
+password=pw

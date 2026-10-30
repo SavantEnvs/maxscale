@@ -1,0 +1,1 @@
+SELECT * FROM t WHERE a = 0x1F AND b = 1.5e3 AND c = b'101' -- trailing

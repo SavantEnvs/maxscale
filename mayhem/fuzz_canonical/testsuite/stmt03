@@ -1,0 +1,1 @@
+UPDATE db2.inventory SET qty = qty - 1 WHERE sku = 'A-1'

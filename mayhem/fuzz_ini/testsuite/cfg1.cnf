@@ -1,0 +1,7 @@
+# comment
+[svc]
+type=service
+router=readwritesplit
+servers=a,b,c
+user=${USER}
+password="quoted ; value"

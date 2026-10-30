@@ -1,0 +1,5 @@
+[a]
+key = value with spaces \
+  continued
+[b]
+key2=$HOME/x

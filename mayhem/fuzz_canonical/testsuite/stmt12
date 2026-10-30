@@ -1,0 +1,1 @@
+SELECT @@global.max_allowed_packet
